@@ -1,0 +1,77 @@
+/*
+|----------------------------------------------
+| _query 800 pra coisas globais
+|----------------------------------------------
+*/
+@media only screen and (max-width: 800px) {
+  .cem .grid {
+    width: 90%;
+    margin: 0 auto; }
+  .tit-nivel3 {
+    font-size: 1.2em !important; }
+  .header {
+    padding: 0; }
+    .header .tp {
+      position: fixed;
+      border-bottom: 1px solid #469;
+      z-index: 999;
+      width: 100%;
+      background: #1a1a1a; }
+    .header:after {
+      top: 0; }
+  .b-menu {
+    margin-top: 0;
+    width: auto;
+    background: #1a1a1a; }
+  section.painel {
+    margin-top: 60px; }
+  .logo {
+    width: 175px;
+    height: 45px;
+    margin: 9px 10px;
+    float: left;
+    background: url('../images/logo.png'); }
+  .rdp {
+    padding-bottom: 10px;
+    margin-top: 35px; }
+    .rdp .iframe, .rdp .menu {
+      display: none; }
+  .address {
+    margin-left: 0;
+    text-align: center; }
+    .address p {
+      font-size: 1em;
+      width: 100%;
+      margin-bottom: 10px;
+      text-align: center; }
+  .fone {
+    font: 1em 'open_sansregular'; }
+  .direitos {
+    display: none; }
+  .edeas {
+    margin-top: 13px;
+    text-align: right; }
+  .cont {
+    padding-top: 20px;
+    background: url('../images/back-diferenciais.jpg') center -60px repeat-x; }
+    .cont:before {
+      display: none; }
+    .cont .grid {
+      padding-top: 100px; }
+  .blc .blc-1 {
+    /*margin:0 20px 25px;
+&:last-child{
+    margin-left: 20px
+    }*/ }
+    .blc .blc-1 img {
+      height: 150px; }
+  .tit-nivel2 {
+    font-size: 1.7em !important; }
+  .area .input {
+    margin-bottom: 7px; }
+  .prev1, .next1, .prev, .next {
+    display: none !important; }
+  .form-contato {
+    margin: 0; } }
+
+/*# sourceMappingURL=query.css.map */

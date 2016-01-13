@@ -1,0 +1,28 @@
+/*
+|----------------------------------------------
+| Header
+|----------------------------------------------
+*/
+
+
+
+.header{
+    position:fixed;
+    background:#fff;
+    padding:10px 0;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.115);
+    //border-bottom: 1px solid #f1f1f1
+    z-index: 999
+}
+
+//logo
+.logo{   
+    width: 175px;
+    height: 45px;
+    background:url('../images/logo.png') repeat-x;
+    display: block;
+    @include center(0); 
+    text-indent: -999px;
+    overflow: hidden;
+}
+

@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+       <meta charset="UTF-8">
+        <title>CuruKit - Usando grid do Pure e exmplos em HTML5 e SASS</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+        <!-- endbuild -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <link rel="icon" href="images/favicon.png" />
+        
+    <!-- build:js assets/js/optimized.js -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/main.js"></script>        
+        <script src="js/owl.carousel.min.js"></script>        
+        
+        <!-- Important Owl stylesheet -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+ 
+        <!-- Default Theme -->
+        <link rel="stylesheet" href="css/owl.theme.css">
+    </head>
+
+    <body class="home">
+       
+        <header class="header cem cf">
+            <div class="grid tp cf">
+                <div class="ts">		        
+                    <h1><a href="#" class="logo">curu-Work</a></h1>
+                </div>
+            </div>
+       
+            <!--menu -->
+            <div class="cem b-menu"> 
+                <div class="grid cf" style="">
+                    <a href="#menu" class="anima-menu">Menu</a>
+                    <nav id="menu" role="navigation">
+                       <ul class="menu">
+                            <li><a href="javascript:void(0)" onClick="goToByScroll('readme')" class="menu-link" title="Readme">Readme</a></li>
+                            <li><a href="javascript:void(0)" onClick="goToByScroll('colaborar')" class="menu-link" title="Colaborar">Colaborar</a></li>
+                            <li title="Examples"><a href="javascript:void(0)" onClick="goToByScroll('examples')" class="menu-link" title="Examples">Examples</a></li>
+                            <li><a href="#" ta class="menu-link" title="Em breve Starter WP">Starter WP</a></li>
+                            <li><a href="https://github.com/diegocuruma" target="_blank" class="menu-link" title="Ver Github">Github</a></li>    
+                            <li><a href="https://codepen.io/curuma/" class="menu-link" title="Ver Codepen" target="_blank">Codepen</a></li>
+
+                        </ul>
+
+                    </nav>
+
+                </div>                  
+            </div>
+	   </header>
+        
+        <section class="cem cf flexible">
+         <div class="grid cf" style="background:#">
+           <header class="tits" id="readme">
+               <h2 class="tit-nivel2">Flexível e Simples</h2> 
+           </header>
+
+
+               <article class="intro pure-u-1 pure-u-md-18-24">   	               
+                   <p>CuruKit é uma extensão simples e agíl do projeto <strong>CuruWork</strong> desenvolvido pelo front-ender <a href="http://codepen.com/diegocuruma" title="Sass Lang">Diego Curuma</a>, facilitando as tarefas do dia a dia usando grid do <a href="http://purecss.io/" title="Pure.css">Pure</a>, (mas é fácil usar o que vc preferir) conta com vários de blocos que podem ser usados em notícias, galerias e etc. Voce pode usar e modificar os exemplos sempre que precisar, contribua com o projeto dando um Fork no <a href="https://github.com/diegocuruma" title="Ver github">github</a>.</p>
+               </article>
+
+
+
+            <div class="pure-g">								
+                <article class="pure-u-1 pure-u-md-8-24 pure-u-sm-12-24" style="background:#">                
+                    <div class="l-box">
+                        <h2 class="tit-nivel3">HTML 5</h2>                    
+                        <p>Marcação semântica baseado em HTML5 com simplicidade e para garantir alto desempenho.</p>
+                    </div>
+                </article>
+
+                <article class="pure-u-1 pure-u-md-8-24 pure-u-sm-12-24" style="background:#">
+                    <div class="l-box">
+                    <h2 class="tit-nivel3">SASS</h2>                    
+                    <p>Usando o pre-processador <a href="http://sass-lang.com/" title="Sass Lang">SASS</a>, voce pode usar todos os recursos necessários que faltam ao CSS. Sem problemas, sem dores de cabeça.</p>
+                    </div>
+                </article>
+
+                <article class="pure-u-1 pure-u-md-8-24 pure-u-sm-12-24" style="background:#">
+                    <div class="l-box">                        
+                    <h2 class="tit-nivel3">Responsive</h2>                    
+                    <p>CuruKit usa o grid do <a href="http://purecss.io/" title="Pure.css">Pure</a>, exemplos que proporciona uma experiência consistente em celulares, tablets e desktops.</p>
+                    </div>				    
+                </article>
+             </div>  
+         </div>
+        </section>
+        
+        
+        
+        
+        
+        <!-- ************************************ ******************************************** -->
+        <!-- News-->
+        <section class="cem news cf" id="examples">
+        
+         <div class="grid cf">
+               <header class="tits">
+                   <h2 class="tit-nivel3">Exemplos de coisas úteis do dia a dia</h2>
+                   <h3 class="tit-nivel4">uso em desktop, celular, tablet e outros dispositivos móveis.</h3>
+               </header>
+               
+               <ul class="blc-cat pure-u-md-24-24">
+                    <li class="blc-sub-cat">
+                        <a href="javascript:void(0)" onClick="goToByScroll('not1')" title="Ver blocos">
+                        Blocos               
+                        </a> 
+                    </li>
+
+                    <li class="blc-sub-cat">
+                    <a href="javascript:void(0)" onClick="goToByScroll('button')" title="Buttons">
+                        Button's
+                    </a> 
+                    </li>
+                </ul>
+                
+              
+                  
+                  <!-- 1º new -->              
+                   <hr />
+                   <section class="item" id="not1">
+                       <header class="tits">
+                           <h3 class="tit-nivel4">Exemplo 1</h3>
+                           <h4 class="tit-nivel5">uso em desktop, celular, tablet e outros dispositivos móveis.</h4>
+                       </header>
+                        
+                       <ul class="bts">
+                         <!--<li><a href="" class="bt green">Colaborar no Git</a></li>  -->             
+                         <li><a href=""class="button blue">Ver no Codepen</a></li>
+                       </ul>
+
+                        <ul class="blc pure-g">                   
+                            <li class="pure-u-1 blc-new pure-u-md-8-24 pure-u-sm-12-24 l-box">
+                                <a href="#" title="#" class="l-box">  
+                                    <div class="img-crop">        
+                                        <img src="images/img-not.jpg" alt="" class="pure-img" />
+                                    </div>    			                                              
+                                    <div class="pure-u-md-24-24">
+                                        <h3 class="tit-nivel3">Skate Ipsum </h3>                                    
+                                    <p>                                    
+                                        Skate ipsum dolor sit amet, handplant Venice freestyle snake airwalk. Tuna-flip stalefish gnar bucket airwalk. Japan air casper flail crail grab Vision.
+                                    </p>  
+                                    <small class="button fl-rg">Leia Mais</small>  
+                                    </div>
+                                  </a>
+                            </li>
+
+                            <li class="pure-u-1 blc-new pure-u-md-8-24 pure-u-sm-12-24 l-box">
+                                <a href="#" title="#" class="l-box">  
+                                    <div class="img-crop">        
+                                        <img src="images/img-not.jpg" alt="" class="pure-img" />
+                                    </div>    			                                              
+                                    <div class="pure-u-md-24-24">
+                                        <h3 class="tit-nivel3">Skate Ipsum </h3>                                    
+                                    <p>                                    
+                                        Skate ipsum dolor sit amet, handplant Venice freestyle snake airwalk. Tuna-flip stalefish gnar bucket airwalk. Japan air casper flail crail grab Vision.
+                                    </p>  
+                                    <small class="button fl-rg">Leia Mais</small>  
+                                    </div>
+                                  </a>
+                            </li>
+
+                            <li class="pure-u-1 blc-new pure-u-md-8-24 pure-u-sm-12-24 l-box">
+                                <a href="#" title="#" class="l-box">  
+                                    <div class="img-crop">        
+                                        <img src="images/img-not.jpg" alt="" class="pure-img" />
+                                    </div>    			                                              
+                                    <div class="pure-u-md-24-24">
+                                        <h3 class="tit-nivel3">Skate Ipsum </h3>                                    
+                                    <p>                                    
+                                        Skate ipsum dolor sit amet, handplant Venice freestyle snake airwalk. Tuna-flip stalefish gnar bucket airwalk. Japan air casper flail crail grab Vision.
+                                    </p>  
+                                    <small class="button fl-rg">Leia Mais</small>  
+                                    </div>
+                                  </a>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    
+                    
+                    <!-- 2º new-->
+                    <hr />
+                    <section class="item" id="not2">
+                       <header class="tits">
+                           <h3 class="tit-nivel4">Notícia 2</h3>
+                           <h4 class="tit-nivel5">uso em desktop, celular, tablet e outros dispositivos móveis.</h4>
+                       </header>
+                       
+                       <ul class="bts">
+                         <!--<li><a href="" class="bt green">Colaborar no Git</a></li>  -->             
+                         <li><a href=""class="button blue">Ver no Codepen</a></li>
+                       </ul>
+                      
+                       <ul class="blc pure-g">			                                
+                            <li class="blc-new2 pure-u-1 pure-u-sm-12-24 pure-u-md-12-24 l-box">
+                                <a href="#" title="" class="">          
+                                    <div class="data pure-u-md-4-24">            
+                                        <span class="dia">01</span>
+                                        <span class="mes">nov</span>
+                                    </div>                                             
+
+                                    <div class="cx-tit pure-u-md-19-24">
+                                        <h3 class="tit-nivel3">Skate Ipsum</h3>                                                                                                             
+                                    <p>                                    
+                                       Skate ipsum dolor sit amet, handplant Venice freestyle snake airwalk. Tuna-flip stalefish gnar bucket airwalk. Japan air casper flail crail grab Vision.                                   
+                                    </p>    
+                                    </div>
+                                </a>
+                            </li> 
+
+                            <li class="blc-new2 pure-u-1 pure-u-sm-12-24 pure-u-md-12-24 l-box">
+                                <a href="#" title="" class="">          
+                                    <div class="data pure-u-md-4-24">            
+                                        <span class="dia">01</span>
+                                        <span class="mes">nov</span>
+                                    </div>                                             
+
+                                    <div class="cx-tit pure-u-md-19-24">
+                                        <h3 class="tit-nivel3">Skate Ipsum</h3>                                                                                                             
+                                    <p>                                    
+                                       Skate ipsum dolor sit amet, handplant Venice freestyle snake airwalk. Tuna-flip stalefish gnar bucket airwalk. Japan air casper flail crail grab Vision.                                   
+                                    </p>    
+                                    </div>
+                                </a>
+                            </li>                                    		
+                        </ul>
+                                        
+                    </section>
+                    <!-- 2º new-->
+                     
+                    <!-- 3º new-->
+                       <hr />
+                    <section class="item" id="not3">
+                      <header class="tits">
+                           <h3 class="tit-nivel4">Notícia 3</h3>
+                           <h4 class="tit-nivel5">uso em desktop, celular, tablet e outros dispositivos móveis.</h4>
+                       </header>
+                      
+                      <ul class="bts">
+                         <!--<li><a href="" class="bt green">Colaborar no Git</a></li>  -->             
+                         <li><a href=""class="button blue">Ver no Codepen</a></li>
+                       </ul>
+                      
+                       <ul class="blc pure-g">
+                            <li class="blc-new pure-u-1 l-box pure-u-sm-12-24 pure-u-md-12-24">
+                                <a href="#" title="#" class="">
+                                    <div class="pure-u-md-7-24">
+                                    <img src="images/img-not.jpg" alt="" class="pure-img" />
+                                    </div>
+
+                                    <div class="cx-tit pure-u-md-16-24">
+                                        <h3 class="tit-nivel3">Venice freestyle snake airwalk</h3>
+                                    <p>
+                                        Skate ipsum dolor sit amet, handplant Venice freestyle snake airwalk. Tuna-flip stalefish gnar bucket airwalk. Japan air casper flail crail grab Vision.
+                                    </p>
+                                    <small class="button fl-rg">Leia Mais</small>
+                                    </div>
+                                </a>
+                            </li>
+                               
+                            <li class="blc-new pure-u-1 l-box pure-u-sm-12-24 pure-u-md-12-24">
+                                <a href="#" title="#" class="">
+                                    <div class="pure-u-md-7-24">
+                                    <img src="images/img-not.jpg" alt="" class="pure-img" />
+                                    </div>
+
+                                    <div class="cx-tit pure-u-md-16-24">
+                                        <h3 class="tit-nivel3">Venice freestyle snake airwalk</h3>
+                                    <p>
+                                        Skate ipsum dolor sit amet, handplant Venice freestyle snake airwalk. Tuna-flip stalefish gnar bucket airwalk. Japan air casper flail crail grab Vision.
+                                    </p>
+                                    <small class="button fl-rg">Leia Mais</small>
+                                    </div>
+                                </a>
+                            </li>                            
+                       </ul>
+                                        
+                    </section> 
+                    
+                    
+                    <!--4º new-->
+                       <hr />
+                    <section class="item" id="not4">
+                      
+                      <header class="tits">
+                           <h3 class="tit-nivel4">Exemplo 4</h3>
+                           <h4 class="tit-nivel5">uso em desktop, celular, tablet e outros dispositivos móveis.</h4>
+                       </header>
+                       
+                       <ul class="bts">
+                         <!--<li><a href="" class="bt green">Colaborar no Git</a></li>  -->             
+                         <li><a href="http://codepen.io/curuma/pen/vNZVLW" target="_blank" title="Ver exemplo 4 no codepen "class="button blue">Ver no Codepen</a></li>
+                       </ul>
+                      
+                       <ul class="blc pure-g">
+                            <li class="blc-new4 pure-u-1 blc-new pure-u-md-8-24 pure-u-sm-12-24 l-box">
+                                <a href="#" title="#">  
+                                    <div class="img-crop">        
+                                        <img src="images/img-not.jpg" alt="" class="pure-img" />
+                                    </div>    			                                              
+                                    <div class="pure-u-md-24-24">
+                                        <h3 class="tit-nivel3">Skate Ipsum handplant Venice freestyle snake airwalk</h3>                     
+                                        <div class="date-hash">
+                                            <em class="data-news4">23,07,2015</em>
+                                            <strong class="hashtag">education</strong>
+                                            <strong class="hashtag">university</strong>
+                                        </div>
+                                    <small class="button fl-rg">Leia Mais</small>  
+                                    </div>
+                                  </a>
+                            </li>
+                                                      
+                            <li class="blc-new4 pure-u-1 blc-new pure-u-md-8-24 pure-u-sm-12-24 l-box">
+                                <a href="#" title="#">  
+                                    <div class="img-crop">        
+                                        <img src="images/img-not.jpg" alt="" class="pure-img" />
+                                    </div>    			                                              
+                                    <div class="pure-u-md-24-24">
+                                        <h3 class="tit-nivel3">Skate Ipsum handplant Venice freestyle snake airwalk</h3>                     
+                                        <div class="date-hash">
+                                            <em class="data-news4">23,07,2015</em>
+                                            <strong class="hashtag">education</strong>
+                                            <strong class="hashtag">university</strong>
+                                        </div>
+                                    <small class="button fl-rg">Leia Mais</small>  
+                                    </div>
+                                  </a>
+                            </li>
+                                                      
+                             <li class="blc-new4 pure-u-1 blc-new pure-u-md-8-24 pure-u-sm-12-24 l-box">
+                                <a href="#" title="#">  
+                                    <div class="img-crop">        
+                                        <img src="images/img-not.jpg" alt="" class="pure-img" />
+                                    </div>    			                                              
+                                    <div class="pure-u-md-24-24">
+                                        <h3 class="tit-nivel3">Skate Ipsum handplant Venice freestyle snake airwalk</h3>                     
+                                        <div class="date-hash">
+                                            <em class="data-news4">23,07,2015</em>
+                                            <strong class="hashtag">education</strong>
+                                            <strong class="hashtag">university</strong>
+                                        </div>
+                                    <small class="button fl-rg">Leia Mais</small>  
+                                    </div>
+                                  </a>
+                            </li>                                                                                                                                              
+                                                       
+                       </ul>
+                                        
+                    </section>
+                    
+                    
+                    
+                    <!--5º new-->
+                    <hr />
+                    <section class="item" id="not5">
+                      
+                      <header class="tits">
+                           <h3 class="tit-nivel4">Exemplo 5</h3>
+                           <h4 class="tit-nivel5">uso em desktop, celular, tablet e outros dispositivos móveis.</h4>
+                       </header>
+                      
+                       <ul class="bts">
+                         <!--<li><a href="" class="bt green">Colaborar no Git</a></li>  -->             
+                         <li><a href=""class="button blue">Ver no Codepen</a></li>
+                       </ul>
+                                            
+                      <ul class="blc pure-g" style="background:#">
+                        <li class="blc-new-5 pure-u-1 blc-new pure-u-md-8-24 pure-u-sm-12-24 l-box">
+                            <a href="#" title="# ">
+                                <div class="img-crop">                                  
+                                  <img src="images/img-not.jpg" alt="" class="pure-img" />
+                                </div>
+                                <div class="pure-u-md-24-24">
+                                    <h3 class="tit-nivel3">Skate Ipsum handplant Venice freestyle snake airwalk</h3>                        
+                                </div>
+                              </a>
+                          </li>
+                           
+                        <li class="blc-new-5 pure-u-1 blc-new pure-u-md-8-24 pure-u-sm-12-24 l-box">
+                            <a href="#" title="#">
+                                <div class="img-crop">                                  
+                                  <img src="images/img-not.jpg" alt="" class="pure-img" />
+                                </div>
+                                <div class="pure-u-md-24-24">
+                                    <h3 class="tit-nivel3">Skate Ipsum handplant Venice freestyle snake airwalk</h3>                        
+                                </div>
+                              </a>
+                          </li>
+                           
+                          <li class="blc-new-5 pure-u-1 blc-new pure-u-md-8-24 pure-u-sm-12-24 l-box">
+                            <a href="#" title="#">
+                                <div class="img-crop">                                  
+                                  <img src="images/img-not.jpg" alt="" class="pure-img" />
+                                </div>
+                                <div class="pure-u-md-24-24">
+                                    <h3 class="tit-nivel3">Skate Ipsum handplant Venice freestyle snake airwalk</h3>                        
+                                </div>
+                              </a>
+                          </li>
+                    </ul>                  
+                    </section>
+                    
+                    <!-- Buttons-->
+                    <hr />
+                    <section class="item" id="button">
+                       <header class="tits">
+                          <h3 class="tit-nivel4">Exemplo de bt's</h3>
+                          <h4 class="tit-nivel5">uso em desktop, celular, tablet e outros dispositivos móveis.</h4>
+                        </header>
+
+                        <ul class="bts">
+                          <li><a href="#"class="button green">Download</a></li>     
+                          <li><a href="#"class="button blue">Download</a></li>
+                          <li><a href="#"class="button pink">Download</a></li>   
+                          <li><a href="#"class="button yellow">Download</a></li>
+                          <li><a href="#"class="button red">Download</a></li>
+                          <li><a href="#"class="button white">Download</a></li>
+                          <li><a href="#"class="button orange">Download</a></li>
+                          <li><a href="#"class="button">Download</a></li>
+                        </ul>
+                       
+                       
+                       
+                     </section>   
+                    
+                    
+            
+         </div>
+        </section>
+        
+        
+
+        <hr class="dn">
+        <strong class="dn">Rodapé</strong>
+        <footer class="rdp cem cf" id="colaborar">
+                <div class="grid cf">
+                    <article>
+                        <section>                                
+                                <address class="address col-md-4">
+                                <h2 class="tit-nivel2">Colabore com o curuKit</h2><br>
+                                <strong>Fortaleza/CE</strong><br>
+                                Feito por diegocuruma e movido a café.<br>
+                                Curukit é livre para uso, caiso queira colaborar é só da um fork no github.<br>
+                                e-mail: diegocuruma@gmaill.com | <a href="http://behance.com/diegocuruma">behance.com/diegocuruma</a>
+                                </address>
+
+                        </section>
+                    </article>
+            </div>
+                    
+        </footer>        
+    </body>
+
+    
+
+<!-- endbuild -->
+</html>

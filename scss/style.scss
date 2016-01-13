@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+/*
+
+****
+****
+
+Autor: 
+Date: 17/11/2014
+Organization of the Styles Sheets
+
+** FRAMEWORK'S CSS
+    -- compass
+    -- bootstrap
+
+
+** GLOBAL
+    -- variables
+    -- placeholder
+    -- mixins
+    -- reset
+
+
+** CUSTOM SECTIONS
+    -- modules/news
+    -- modules/fonts
+
+****
+****
+
+*/
+
+
+// GLOBAL
+
+@import "reset.scss";
+@import "mixins.scss";
+@import "grid.scss";
+
+
+
+// CUSTOM SECTIONS
+@import "modules/header.scss";
+@import "modules/fontes.scss";
+@import "modules/news.scss";
+@import "modules/menu.scss";
+@import "modules/abas.scss";
+@import "modules/buttons.scss";
+
+
+@import "query.scss";
+
+
+
+/*
+|----------------------------------------------
+| main custom
+|----------------------------------------------
+*/
+
+@mixin box-sizing($box-model) {
+  -webkit-box-sizing: $box-model; // Safari <= 5
+     -moz-box-sizing: $box-model; // Firefox <= 19
+          box-sizing: $box-model;
+}
+
+*,
+*:after,
+*:before {
+  @include box-sizing(border-box);
+}
+
+#owl-demo .item img{
+display: block;
+width: 100%;
+height: auto;
+}
+
+
+
+
+.link-center{
+    width: 35%;
+    @include center(15px, 0); 
+    padding:7px 15px;
+    border:1px solid #1a1a1a;
+    font: ft-convert(14) 'open_sansregular'; 
+    text-align: center
+    }
+        
+
+
+
+//for para cores e margin nos titulos do wp
+@for $i from 1 through 3 {
+  h#{$i} {
+      //font-size:ft-convert(20 - $i)!important;
+      color: #fff;  
+      text-align: center
+    }
+}
+
+
+
+
+// Titulos
+.tits{
+    margin:0 auto 25px; text-align: center;
+}
+
+.home .tit-nivel2{
+    background:url('../images/pena.png') center no-repeat;
+    padding-top:150px;
+}
+.tit-nivel2{
+    font:ft-convert(24) 'hammersmithoneregular';    
+    display:inline-table;     
+    text-transform: uppercase;
+}
+
+.tit-nivel3{    
+     font:ft-convert(22) 'hammersmithoneregular';     
+}
+
+
+.tit-nivel4{
+    text-align: center;
+    color: #3865a8;
+    font:ft-convert(14) 'open_sansregular';
+}
+
+.tit-nivel5{
+    text-align: center;
+    color: #1a1a1a;
+    font:ft-convert(14) 'open_sansregular';
+}
+
+
+
+//**
+// rodapé
+//**
+.rdp{
+padding: 70px 0;
+    background: #252525;
+    address{
+        .tit-nivel2{
+            padding: 0;
+            background:none;
+        }
+        font:ft-convert(14) 'open_sansregular';
+        color: #fff;
+        text-align: center;
+        a{
+            color: #fff;
+            &:hover{
+                color:#3865a8
+            }
+        }
+    }
+}
+
+
+// flexible
+.flexible{
+   //background:url('../images/bg.jpg') center no-repeat;
+    padding:80px 0;       
+    .intro{
+        margin:0 auto 50px; 
+        display: block;        
+    }
+    p{
+        text-align: center;
+        color:#ebebeb;
+    }
+}
+
+     
+//css micro clearfix 
+.cf{@include clearfix();}
+
+
+//box-sizing
+@mixin box-sizing($box-model) {
+  -webkit-box-sizing: $box-model; // Safari <= 5
+     -moz-box-sizing: $box-model; // Firefox <= 19
+          box-sizing: $box-model;
+}
+
+
+
+/* classes constants */
+.dn {display:none;}
+.db {display:block;}
+.img-rep {display:block; overflow:hidden; text-indent:-9999px;}
+.fl-lf {float:left;}
+.fl-rg {float:right;}
+.mr-lf {margin-left:0;}
+.mr-bt {margin-bottom:0;}
+
+//****************************
+
+
+
+//**
+// examples page
+//**
+.examples{
+   //background:url('../images/bg.jpg') center no-repeat;
+    padding:80px 0; 
+}
+
+
+

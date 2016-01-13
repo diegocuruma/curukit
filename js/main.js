@@ -1,0 +1,106 @@
+
+
+jQuery(document).ready(function($) {
+     
+    $("#owl-demo").owlCarousel({
+     
+    navigation : true, // Show next and prev buttons
+    slideSpeed : 300,
+    paginationSpeed : 400,
+    singleItem:true
+     
+    // "singleItem:true" is a shortcut for:
+    // items : 1,
+    // itemsDesktop : false,
+    // itemsDesktopSmall : false,
+    // itemsTablet: false,
+    // itemsMobile : false
+     
+    });
+     
+});
+
+
+
+
+//menu responsivo
+$(document).ready(function() {
+  //add class js no body
+  $('body').addClass('js');
+$(".anima-menu, .menu-link").click(function(){
+      //nav
+      $("#menu").toggleClass('active');
+  
+    });
+
+});    
+
+
+//Ir para o topo 
+//function goToByScroll(id){$('html,body').animate({scrollTop:$("#"+id).offset().top},'slow');}
+function goToByScroll(id){ 
+    jQuery(document).ready(function($){
+        $('html,body').animate({scrollTop: $("#"+id).offset().top},'slow'); 
+       return false; 
+    });
+};
+	
+
+	
+//tabs
+var Tabs = {
+
+  init: function() {
+    this.bindUIfunctions();
+    this.pageLoadCorrectTab();
+  },
+
+  bindUIfunctions: function() {
+
+    // Delegation
+    $(document)
+      .on("click", ".transformer-tabs a[href^='#']:not('.active')", function(event) {
+        Tabs.changeTab(this.hash);
+        event.preventDefault();
+      })
+      .on("click", ".transformer-tabs a.active", function(event) {
+        Tabs.toggleMobileMenu(event, this);
+        event.preventDefault();
+      });
+
+  },
+
+  changeTab: function(hash) {
+
+    var anchor = $("[href=" + hash + "]");
+    var div = $(hash);
+
+    // activate correct anchor (visually)
+    anchor.addClass("active").parent().siblings().find("a").removeClass("active");
+
+    // activate correct div (visually)
+    div.addClass("active").siblings().removeClass("active");
+
+    // update URL, no history addition
+    // You'd have this active in a real situation, but it causes issues in an <iframe> (like here on CodePen) in Firefox. So commenting out.
+    // window.history.replaceState("", "", hash);
+
+    // Close menu, in case mobile
+    anchor.closest("ul").removeClass("open");
+
+  },
+
+  // If the page has a hash on load, go to that tab
+  pageLoadCorrectTab: function() {
+    this.changeTab(document.location.hash);
+  },
+
+  toggleMobileMenu: function(event, el) {
+    $(el).closest("ul").toggleClass("open");
+  }
+
+}
+
+Tabs.init();
+
+	

@@ -1,0 +1,108 @@
+/*
+|----------------------------------------------
+| Abas
+|----------------------------------------------
+*/
+.abas {
+  background: #d5ddea;
+  padding: 80px 0; }
+  .abas .tit-nivel2, .abas .tit-nivel3 {
+    color: #3865a8; }
+
+.tabs p {
+  margin-top: 15px; }
+
+.transformer-tabs {
+  margin-top: 25px; }
+  .transformer-tabs ul {
+    clear: both;
+    float: left;
+    width: 100%;
+    list-style: none;
+    padding: 0; }
+  .transformer-tabs li {
+    margin-right: 25px;
+    float: left;
+    /* &:nth-child(1) .active {
+      color: lighten(#9b59b6, 20%);
+      border-bottom-color: #9b59b6;
+    }
+    &:nth-child(2) .active {
+      color: lighten(#3498db, 20%);
+      border-bottom-color: #3498db;
+    }
+    &:nth-child(3) .active {
+      color: lighten(#e67e22, 20%);
+      border-bottom-color: #e67e22;
+    }
+    &:nth-child(4) .active {
+      color: lighten(#c0392b, 20%);
+      border-bottom-color: #c0392b;
+    }*/ }
+    .transformer-tabs li:first-child {
+      margin-left: 15px; }
+  .transformer-tabs a {
+    font: ft-convert(16) 'open_sansregular';
+    border: 1px solid #1a1a1a;
+    float: left;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.5rem; }
+    .transformer-tabs a.active {
+      border-color: #6180af;
+      color: #6180af;
+      position: relative;
+      bottom: 0; }
+  @media (max-width: 800px) {
+    .transformer-tabs ul {
+      border-bottom: 0;
+      overflow: hidden;
+      position: relative;
+      background: linear-gradient(#469, #469); }
+      .transformer-tabs ul::after {
+        content: "☰";
+        position: absolute;
+        top: 8px;
+        right: 5px;
+        z-index: 2;
+        pointer-events: none; }
+      .transformer-tabs ul.open a {
+        border: 0;
+        color: #fff;
+        position: relative;
+        display: block; }
+    .transformer-tabs li {
+      display: block;
+      float: none; }
+      .transformer-tabs li:first-child {
+        margin-left: 0; }
+    .transformer-tabs a {
+      position: absolute;
+      top: 0;
+      border: 0;
+      left: 0;
+      width: 103%;
+      height: 100%; }
+      .transformer-tabs a.active {
+        color: #fff;
+        border: 0;
+        z-index: 1;
+        background: #666;
+        background: linear-gradient(#469, #4d74af); } }
+
+.tabs > div {
+  display: none;
+  padding: 1rem; }
+  .tabs > div:nth-of-type(1) {
+    background: none; }
+  .tabs > div:nth-of-type(2) {
+    background: none; }
+  .tabs > div:nth-of-type(3) {
+    background: none; }
+  .tabs > div:nth-of-type(4) {
+    background: none; }
+.tabs > .active {
+  display: block; }
+
+/*# sourceMappingURL=abas.css.map */

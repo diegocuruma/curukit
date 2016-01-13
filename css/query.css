@@ -1,0 +1,141 @@
+/*
+|----------------------------------------------
+| _query 800 pra coisas globais
+|----------------------------------------------
+*/
+@media only screen and (max-width: 800px) {
+  /* line 8, ../scss/query.scss */
+  .cem .grid {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* line 14, ../scss/query.scss */
+  .tit-nivel3 {
+    font-size: 1.2em!important;
+  }
+
+  /* line 19, ../scss/query.scss */
+  .header {
+    padding: 0;
+    position: inherit !important;
+  }
+  /* line 22, ../scss/query.scss */
+  .header .tp {
+    position: fixed;
+    border-bottom: 1px solid #469;
+    z-index: 999;
+    width: 100%;
+    background: #1a1a1a;
+  }
+  /* line 28, ../scss/query.scss */
+  .header:after {
+    top: 0;
+  }
+
+  /* line 36, ../scss/query.scss */
+  .b-menu {
+    margin-top: 0;
+    width: auto;
+    background: #1a1a1a;
+  }
+
+  /* line 45, ../scss/query.scss */
+  section.painel {
+    margin-top: 60px;
+  }
+
+  /* line 51, ../scss/query.scss */
+  .logo {
+    width: 175px;
+    height: 45px;
+    margin: 9px 10px;
+    float: left;
+    background: url("../images/logo.png");
+  }
+
+  /* line 66, ../scss/query.scss */
+  .rdp {
+    padding-bottom: 10px;
+    margin-top: 35px;
+  }
+  /* line 69, ../scss/query.scss */
+  .rdp .iframe, .rdp .menu {
+    display: none;
+  }
+
+  /* line 74, ../scss/query.scss */
+  .address {
+    margin-left: 0;
+    text-align: center;
+  }
+  /* line 77, ../scss/query.scss */
+  .address p {
+    font-size: 1em;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  /* line 86, ../scss/query.scss */
+  .fone {
+    font: 1em 'open_sansregular';
+  }
+
+  /* line 90, ../scss/query.scss */
+  .direitos {
+    display: none;
+  }
+
+  /* line 94, ../scss/query.scss */
+  .edeas {
+    margin-top: 13px;
+    text-align: right;
+  }
+
+  /* line 111, ../scss/query.scss */
+  .cont {
+    padding-top: 20px;
+    background: url("../images/back-diferenciais.jpg") center -60px repeat-x;
+  }
+  /* line 114, ../scss/query.scss */
+  .cont:before {
+    display: none;
+  }
+  /* line 117, ../scss/query.scss */
+  .cont .grid {
+    padding-top: 100px;
+  }
+
+  /* line 121, ../scss/query.scss */
+  .blc .blc-1 {
+    /*margin:0 20px 25px;
+    &:last-child{
+        margin-left: 20px
+        }*/
+  }
+  /* line 122, ../scss/query.scss */
+  .blc .blc-1 img {
+    height: 150px;
+  }
+
+  /* line 137, ../scss/query.scss */
+  .tit-nivel2 {
+    font-size: 1.7em!important;
+  }
+
+  /* line 141, ../scss/query.scss */
+  .area .input {
+    margin-bottom: 7px;
+  }
+
+  /* line 145, ../scss/query.scss */
+  .prev1, .next1, .prev, .next {
+    display: none!important;
+  }
+
+  /* line 149, ../scss/query.scss */
+  .form-contato {
+    margin: 0;
+  }
+}

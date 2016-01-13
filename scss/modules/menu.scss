@@ -1,0 +1,188 @@
+
+/*
+|----------------------------------------------
+| Menu
+|----------------------------------------------
+*/
+
+
+.b-menu{
+    margin-top:-55px;
+    width: auto;        
+}
+
+/*menu resp*/
+.anima-menu {
+display: block;     
+width: 30px;
+height: 20px;
+border-top:1px solid #fff;
+border-bottom:1px solid #fff;
+right:12px;   
+margin-top:20px;    
+position: fixed;
+text-indent: -999px;
+overflow: hidden;
+z-index: 999;
+    span{
+      /* font:$t-p $ft1;  margin-left:-50px; text-transform: uppercase; color: $cl2;*/
+    }
+}
+
+.anima-menu:before{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background:#fff; 
+    position: absolute;
+    left:0;
+    top:8px;
+}
+
+
+
+
+// aqui estiliza o menu responsivo
+
+
+/*cor do link resp*/
+.menu-link{ color:#fff; text-decoration:none;}
+
+/*animação do menu resp*/
+nav[role=navigation] {
+ clear: both;
+ -moz-transition: all 0.3s ease-out;
+ transition: all 0.3s ease-out;
+}
+
+/*class no body para deixar menu escondido no resp*/
+.js nav[role=navigation] {
+overflow: hidden;
+max-height: 0;
+}
+
+/*ao acionar a class active o tamanho do menu-link resp seta */
+nav[role=navigation].active {
+max-height:46em;
+}
+
+/*estilizando o menu resp*/
+nav[role=navigation] .menu {
+margin: 0;
+//clear: right;
+width:100%;  
+margin-top: 100px;
+padding: 0;
+position: relative;
+z-index: 2;
+background:#1a1a1a;
+text-transform: uppercase;
+border-top: 2px solid #1a1a1a;
+}
+
+/*estilizando o menu-link resp*/
+nav[role=navigation] .menu-link {
+display: block;
+padding:15px 10px;
+border-bottom: 1px solid #469;
+font:1em 'open_sansregular';
+    
+}
+/*estilizando o menu-link:hover resp*/
+nav[role=navigation] .menu-link:hover{
+    background:#fff; 
+    color:#469;
+}
+
+
+
+
+// aqui estiliza o menu principal
+
+/*
+|----------------------------------------------
+| _query 800 do menu principal
+|----------------------------------------------
+*/
+@media screen and (min-width:800px) {
+
+.anima-menu {
+   display: none;
+}
+
+.js nav[role=navigation] {
+    clear: none;
+    max-height: none;
+}
+/*menu normal*/  
+nav[role=navigation] .menu {
+    border: 0;    
+    float:left;
+    margin-top:10px;
+    background:transparent;
+    width:100%;    
+}
+
+/*estilizando a lista do menu*/
+nav[role=navigation]  .menu{
+    li {         
+    display: inline-block;    
+    margin: 0 10px;       
+    text-transform:uppercase;        
+    //padding-right:20px;
+    //border-right:1px solid rgba($cl1, .5);
+        &:first-child{
+            margin-left:0;
+        }   
+    
+        
+        &:last-child{
+            margin-right:0;
+        }
+     }
+     li[title*="Exa"]{
+        margin-right:315px!important;        
+    }
+}
+/*estilizando o link do menu*/
+nav[role=navigation] .menu-link {
+    border: 0;    
+    font:.89em 'open_sansregular';
+    color:#1a1a1a;       
+    padding:15px 10px;     
+    }
+    /*.menu li .menu-link[title*="Home"]{
+        padding-left: 0;
+}*/
+//.menu li:first-child{background: rgba($cl1, .2)}    
+    
+    
+/*estilizando o hover do menu*/
+nav[role=navigation] .menu-link:hover{background:none; color:#469}
+}
+
+
+
+
+//**
+// menu dos examples
+//**
+
+.blc-sub-cat {
+    border-bottom: 1px dotted #fff;
+    float: left;    
+    margin:10px 5px; 
+    &:last-child{
+        border-bottom: 0
+    }
+    a{
+    padding:6px 10px;
+    background:#efefef;  
+        outline: none;        
+        font:.89em 'open_sansregular';
+        &:hover{
+         @include back(#3865a8,#fff);
+        }
+    }
+    
+}

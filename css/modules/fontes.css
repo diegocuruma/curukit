@@ -1,0 +1,20 @@
+/*
+|----------------------------------------------
+| Fonts
+|----------------------------------------------
+*/
+@font-face {
+  font-family: 'open_sansregular';
+  src: url("../fonts/opensans-regular-webfont.eot");
+  src: url("../fonts/opensans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-regular-webfont.woff") format("woff"), url("../fonts/opensans-regular-webfont.ttf") format("truetype"), url("../fonts/opensans-regular-webfont.svg#open_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'hammersmithoneregular';
+  src: url("../fonts/hammersmithone-regular-webfont.eot");
+  src: url("../fonts/hammersmithone-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/hammersmithone-regular-webfont.woff") format("woff"), url("../fonts/hammersmithone-regular-webfont.ttf") format("truetype"), url("../fonts/hammersmithone-regular-webfont.svg#hammersmithoneregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

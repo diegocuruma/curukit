@@ -1,0 +1,153 @@
+/*
+|----------------------------------------------
+| News
+|----------------------------------------------
+*/
+
+.news{
+    background: #fff;
+    padding:80px 0;
+    .tit-nivel2,.tit-nivel3{
+        color: #3865a8;
+    }
+}
+
+
+.item{
+    margin: 50px 0;
+    .tit-nivel4{
+        font:ft-convert(18) 'hammersmithoneregular';
+    }
+}
+
+.blc{
+
+    .img-crop{
+        display: block;
+        height: 170px;
+        margin: 0 auto;
+        overflow: hidden;                        
+    }
+
+}
+
+
+// 1º News
+.blc-new{ 
+
+    .tit-nivel3{
+        margin: 5px 0;
+        text-align: left;
+    }
+    
+    img{            
+        margin-bottom: 7px;
+        //width: 100%;
+    }
+}
+
+
+
+// 2º News
+.blc-new2{        
+    .tit-nivel3{
+        text-align: left;
+    }
+    img{
+      float: left ; width:100%; height: 200px; margin-bottom: 7px;
+    }
+
+}
+    .data{
+    padding: 15px 0;
+    background:#2c2c2c;
+    }
+    .dia{
+        font-size:1em; 
+    }
+    .dia, .mes{
+        font:ft-convert(18) 'hammersmithoneregular';     
+        color:#fff;            
+        text-align: center;
+        display: block;
+    }
+
+
+// 4º News
+.blc-new4{    
+    background:#f1f1f1;
+    .tit-nivel3{
+    font-size:16px; 
+    }
+    .date-hash{
+    width: 100%;
+    padding:8px 0;
+    display: block;
+    border: 1px solid;
+    border-color:#dbdbdb transparent #dbdbdb transparent;
+    margin: 10px 0;
+    }
+    .data-news4, .hashtag{        
+    font:ft-convert(14) 'open_sansregular';
+    padding-left:20px; 
+    }    
+    .data-news4{
+    background: url('../images/time.png') left no-repeat;
+    }
+    .hashtag{        
+    background: url('../images/hashtag.png') left no-repeat;
+        margin-left: 6px;
+    }
+}
+
+
+
+.blc-new-5{
+    position: relative;
+    .tit-nivel3{
+        margin:8px 0;
+        color: #3865a8;
+    }    
+a{
+    text-align: center;    
+    &:before{
+    position: absolute;
+    content: "+";
+    @include size(30px);
+    @include back(#31356f,#fff);
+    border:4px solid #fff;
+    border-radius: 100%;
+    z-index:6;
+    margin:-15px auto;
+    left: 0;
+    right:0
+}
+    &:hover:before{
+      background:orange
+    }
+}
+    .btn-leia{
+        font:ft-convert(14) 'open_sansregular';
+        color: red
+    }
+}
+
+
+
+
+
+
+// **
+// query
+// **
+@media only screen and (max-width:800px) {
+ 
+    // **
+    // zerado margem news
+    //    
+    .blc-new{  
+    margin-right:0; 
+    margin-left:0; 
+    }
+    
+}

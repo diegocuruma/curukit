@@ -1,0 +1,151 @@
+/*
+|----------------------------------------------
+| Abas
+|----------------------------------------------
+*/
+/* line 7, ../../scss/modules/abas.scss */
+.abas {
+  background: #d5ddea;
+  padding: 80px 0;
+}
+/* line 10, ../../scss/modules/abas.scss */
+.abas .tit-nivel2, .abas .tit-nivel3 {
+  color: #3865a8;
+}
+
+/* line 17, ../../scss/modules/abas.scss */
+.tabs p {
+  margin-top: 15px;
+}
+
+/* line 21, ../../scss/modules/abas.scss */
+.transformer-tabs {
+  margin-top: 25px;
+}
+/* line 23, ../../scss/modules/abas.scss */
+.transformer-tabs ul {
+  clear: both;
+  float: left;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+}
+/* line 31, ../../scss/modules/abas.scss */
+.transformer-tabs li {
+  margin-right: 25px;
+  float: left;
+  /* &:nth-child(1) .active {
+     color: lighten(#9b59b6, 20%);
+     border-bottom-color: #9b59b6;
+   }
+   &:nth-child(2) .active {
+     color: lighten(#3498db, 20%);
+     border-bottom-color: #3498db;
+   }
+   &:nth-child(3) .active {
+     color: lighten(#e67e22, 20%);
+     border-bottom-color: #e67e22;
+   }
+   &:nth-child(4) .active {
+     color: lighten(#c0392b, 20%);
+     border-bottom-color: #c0392b;
+   }*/
+}
+/* line 34, ../../scss/modules/abas.scss */
+.transformer-tabs li:first-child {
+  margin-left: 15px;
+}
+/* line 54, ../../scss/modules/abas.scss */
+.transformer-tabs a {
+  font: ft-convert(16) "open_sansregular";
+  border: 1px solid #1a1a1a;
+  float: left;
+  color: #1a1a1a;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+/* line 62, ../../scss/modules/abas.scss */
+.transformer-tabs a.active {
+  border-color: #6180af;
+  color: #6180af;
+  position: relative;
+  bottom: 0;
+}
+@media (max-width: 800px) {
+  /* line 73, ../../scss/modules/abas.scss */
+  .transformer-tabs ul {
+    border-bottom: 0;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(#446699, #446699);
+  }
+  /* line 79, ../../scss/modules/abas.scss */
+  .transformer-tabs ul::after {
+    content: "☰";
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    z-index: 2;
+    pointer-events: none;
+  }
+  /* line 88, ../../scss/modules/abas.scss */
+  .transformer-tabs ul.open a {
+    border: 0;
+    color: #fff;
+    position: relative;
+    display: block;
+  }
+  /* line 96, ../../scss/modules/abas.scss */
+  .transformer-tabs li {
+    display: block;
+    float: none;
+  }
+  /* line 99, ../../scss/modules/abas.scss */
+  .transformer-tabs li:first-child {
+    margin-left: 0;
+  }
+  /* line 103, ../../scss/modules/abas.scss */
+  .transformer-tabs a {
+    position: absolute;
+    top: 0;
+    border: 0;
+    left: 0;
+    width: 103%;
+    height: 100%;
+  }
+  /* line 110, ../../scss/modules/abas.scss */
+  .transformer-tabs a.active {
+    color: #fff;
+    border: 0;
+    z-index: 1;
+    background: #666;
+    background: linear-gradient(#446699, #4d74af);
+  }
+}
+
+/* line 124, ../../scss/modules/abas.scss */
+.tabs > div {
+  display: none;
+  padding: 1rem;
+}
+/* line 127, ../../scss/modules/abas.scss */
+.tabs > div:nth-of-type(1) {
+  background: none;
+}
+/* line 130, ../../scss/modules/abas.scss */
+.tabs > div:nth-of-type(2) {
+  background: none;
+}
+/* line 133, ../../scss/modules/abas.scss */
+.tabs > div:nth-of-type(3) {
+  background: none;
+}
+/* line 136, ../../scss/modules/abas.scss */
+.tabs > div:nth-of-type(4) {
+  background: none;
+}
+/* line 140, ../../scss/modules/abas.scss */
+.tabs > .active {
+  display: block;
+}

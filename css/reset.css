@@ -1,0 +1,67 @@
+/*
+|----------------------------------------------
+| Reset
+|----------------------------------------------
+*/
+/* line 7, ../scss/reset.scss */
+*, html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+/* line 8, ../scss/reset.scss */
+body {
+  font: 0.93em Tahoma, Arial, sans-serif;
+  color: #000;
+  text-align: left;
+  line-height: 1.3em;
+  background: #5579ad;
+}
+
+/* line 14, ../scss/reset.scss */
+a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+/* line 16, ../scss/reset.scss */
+img, a img, fieldset {
+  border: 0;
+}
+
+/* line 17, ../scss/reset.scss */
+address, em {
+  font-style: normal;
+}
+
+/* line 18, ../scss/reset.scss */
+li {
+  list-style-type: none;
+}
+
+/* line 19, ../scss/reset.scss */
+table {
+  border-collapse: collapse;
+}
+
+/* line 20, ../scss/reset.scss */
+p {
+  font: 1em 'open_sansregular';
+  text-align: justify;
+  color: #000;
+  line-height: 25px;
+}
+
+/* line 26, ../scss/reset.scss */
+p + p {
+  margin-top: 10px;
+}
+
+/* line 29, ../scss/reset.scss */
+hr {
+  height: 1px;
+  border: 1px dotted;
+  border-color: #c4c4c4 transparent transparent transparent;
+  margin: 100px 0;
+}

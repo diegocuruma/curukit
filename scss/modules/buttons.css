@@ -1,0 +1,47 @@
+/*
+|----------------------------------------------
+| Buttons
+|----------------------------------------------
+*/
+.bts li {
+  float: left;
+  margin: 0 10px; }
+
+.bt {
+  display: inline-block;
+  *display: inline;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  font: ft-convert(14) 'open_sansregular';
+  color: #333 !important;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 2px 0px 0px #35895d;
+  /*border-color:#eeeeee,#dedede,#dedede;*/
+  border-radius: 6px; }
+
+.green {
+  /* --- green color button --- */
+  color: #fff !important;
+  background: #4DAF7C; }
+
+.green:hover, button.green:active {
+  background: #51A351; }
+
+.blue {
+  /* --- green color button --- */
+  color: #fff !important;
+  background: #4DAF7C; }
+
+.blue {
+  /* --- green color button --- */
+  color: #fff !important;
+  background: #469;
+  box-shadow: 0px 2px 0px 0px #355077; }
+
+.blue:hover, button.blue:active {
+  background: #476ca3; }
+
+/*# sourceMappingURL=buttons.css.map */

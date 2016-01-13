@@ -1,0 +1,106 @@
+/*
+|----------------------------------------------
+| Buttons
+|----------------------------------------------
+*/
+
+.bts{
+    @include center(15px); 
+    margin-bottom:5px;
+    display: table;
+    
+    li{
+        float: left;
+        margin:0 5px;
+        &:first-child{
+            margin-left: 15px;
+        }
+    }
+}
+
+/*estilo botão*/
+.button{
+    display:inline-block;
+    *display:inline;
+	padding:10px 20px;
+	margin-bottom:10px;
+	font: ft-convert(14) 'open_sansregular'; 
+	color:#fff;
+	text-align:center;
+	vertical-align:middle;
+	cursor:pointer;
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+	/*border-color:#eeeeee,#dedede,#dedede;*/
+    border-radius:6px;
+    background: #8e8e8e;
+	border-bottom:2px solid #717171;
+    &:hover{
+        background: #a0a0a0;
+    }
+}
+
+
+.green{
+	background: #51A351;
+    border-bottom: 2px solid #35895d;
+	//filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#51A351', EndColorStr='#388138');
+    &:hover, &:active{
+	    background: #4DAF7C;        
+    }
+}
+
+.blue{
+	background: #469;
+    border-bottom:2px solid #355077;
+	//filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#51A351', EndColorStr='#388138');
+    &:hover, &:active{
+	background: #476ca3;
+    }
+}
+
+.pink{
+	background: #ef00b8;
+    border-bottom:2px solid #d300a2;
+	//filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#51A351', EndColorStr='#388138');
+    &:hover, &:active{
+	background: #eb44c5;
+    }
+}
+
+.yellow{
+	background: #ffcc00;
+    border-bottom:2px solid #d0a600;
+	//filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#51A351', EndColorStr='#388138');
+    &:hover, &:active{
+	background: #f5d75c;
+    }
+}
+
+.red{
+	background: #CA3A33;
+    border-bottom:2px solid #af322b;
+	//filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#51A351', EndColorStr='#388138');
+    &:hover, &:active{
+	background: #e24f48;
+    }
+}
+
+.white{
+	background: #f1f1f1;
+    border-bottom:2px solid #c3c3c3;
+  color:#2c2c2c;  
+  text-shadow: 0px -1px 0px #d9d9d9;
+	//filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#51A351', EndColorStr='#388138');
+    &:hover, &:active{
+	background: #f4f4f4;
+    }
+}
+
+.orange{
+	background: #ffb100;
+  border-bottom:2px solid #dd9900;  
+	//filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#51A351', EndColorStr='#388138');
+    &:hover, &:active{
+	background: #ffbf2f;
+    }
+}
