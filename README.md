@@ -2,7 +2,7 @@
 
 ## O projeto
 
-CuruKit é uma extensão simples e ágil do projeto CuruWork desenvolvido pelo front-ender -> Diego Curuma, facilitando as tarefas do dia a dia usando grid do Pure, (mas é fácil usar o que vc preferir) conta com vários de blocos que podem ser usados em notícias, galerias e etc. Você pode usar e modificar os exemplos sempre que precisar, contribua com o projeto dando um Fork no github.
+CuruKit é uma extensão simples e ágil do projeto CuruWork desenvolvido pelo front-ender -> Diego Curuma, facilitando as tarefas do dia a dia usando grid do Pure, (mas é fácil usar o que vc preferir) conta com vários blocos que podem ser usados em notícias, galerias e etc. Você pode usar e modificar os exemplos sempre que precisar, contribua com o projeto dando um Fork no github.
 
 
 ## Como usar?
