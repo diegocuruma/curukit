@@ -15,7 +15,7 @@ O kit  vem com vários exemplos de blocos, é só escolher usar o html e scss e 
 **Diego Curumim** Front End
 
 
-* Site: curukit.pe.hu
+* Site: curuwork.pe.hu
 * E-mail: diegocuruma@gmail.com
 
 ## Equipe
