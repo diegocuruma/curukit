@@ -1,0 +1,66 @@
+
+//**
+// menu de informações do top
+//**
+.menu-infos{
+    margin-top: 15px;
+    a{
+        font:ft-convert(15) $ft1;
+        font-weight:bold;
+        height: 25px;
+        padding:5px 0 0 40px;
+        background: url('../images/icons-top.png') no-repeat;
+        display: block;
+       /* &[title*="Localizar"]{
+            color: $cl3;
+        }*/
+        &[title*="Rastr"]{
+            background-position:0 -38px;
+            color: $cl5;
+        }
+        &[title*="Logi"]{
+            background-image:none;
+            padding-left: 0;
+            text-align: center
+        }
+        span{
+            background-color: $cl5;
+            border-radius: 15px;
+            color: $cl2;
+            padding: 10px;
+        }
+    }
+}
+
+.blc-menu{
+    margin-top: 15px
+}
+
+.navbar{
+    margin-bottom:0;
+    .nav{
+        padding-bottom: 6px;
+        li{
+            margin-left:25px!important;
+            a{
+              padding:10px 4px;              
+            }
+        }
+        a.menu-link{
+        font:ft-convert(17) $ft1;
+        font:ft-convert(17) $ft1;
+        color: $cl2!important;        
+        }
+        .active a{
+            background: none!important;
+            color: $cl5!important
+            }
+    } 
+    
+}
+
+
+//** resp
+.navbar-toggle{
+    background: $cl-blue;
+}

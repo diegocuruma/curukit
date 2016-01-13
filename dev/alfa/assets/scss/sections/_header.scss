@@ -1,0 +1,19 @@
+/*
+|----------------------------------------------
+| Header
+|----------------------------------------------
+*/
+
+.header{
+    background: url('../images/bg-menu.png') bottom repeat-x;
+    .logo{
+        padding: 0;
+        margin-bottom: 10px;
+    }
+  //padding: 10px 0;
+    .navbar-default{
+        border: 0; 
+        background: 0;
+    }
+}
+

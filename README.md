@@ -21,6 +21,9 @@ O kit  vem com vários exemplos de blocos, é só escolher usar o html e scss e 
 ## Equipe
 
 * Equipe: Dev-Underground
+* Dev: Curumim
+* Dev: Allefbr
+* Dev: Ona
 
 
 ## Referências

@@ -1,0 +1,39 @@
+/*
+|----------------------------------------------
+| footer
+|----------------------------------------------
+*/
+
+
+.rdp{
+    background:$cl5 url('../images/bg-rdp.jpg') center top no-repeat;
+    padding: 60px 0;
+    margin-top: 50px;
+}
+.address{
+    font:ft-convert(15) $ft1;
+    color: $cl4;
+    margin-top: 50px;
+    padding-right:50px;    
+    span{
+       font-size: $t-g
+    }
+    strong{
+        margin-bottom: 7px;
+    }
+}
+
+.m-telefone{
+    background: url('../images/bg-fone.png') no-repeat;
+    padding-top: 50px;
+}
+
+.m-ende{
+    background: url('../images/bg-mapa.png') no-repeat;
+    padding-top: 50px
+}
+
+.bd{
+    border-left:1px dotted $cl2;
+    height:120px
+}
